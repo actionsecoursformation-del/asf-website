@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <li><a href="formation-dae.html" ${currentPage==='formation-dae.html'?'class="active"':''}>❤️ Gestes de premiers secours / DAE</a></li>
           </ul>
         </li>
-        <li><a href="sante-bien-etre.html" ${currentPage==='sante-bien-etre.html' || currentPage==='osteopathe-entreprise.html'?'class="active"':''}>Santé &amp; bien-être</a></li>
+<li><a href="osteopathe-entreprise.html" ${currentPage==='osteopathe-entreprise.html'?'class="active"':''}>Santé &amp; bien-être</a></li>
         <li>
     <a href="blog.html"
        ${currentPage==='blog.html'?'class="active"':''}>
