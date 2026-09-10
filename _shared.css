@@ -1071,3 +1071,9 @@ footer ul a:hover { color: var(--rouge); }
   .nav-logo-text span { font-size: 0.58rem; letter-spacing: 1.7px; }
   .nav-links a { font-size: 0.78rem; padding: 7px 7px; }
 }
+/* Empêche les sommaires des articles de suivre le scroll */
+.article-summary {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+}
