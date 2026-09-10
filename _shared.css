@@ -261,7 +261,7 @@ footer ul a:hover { color: var(--rouge); }
   .nav-links { display: none; flex-direction: column; gap: 4px; position: absolute; top: 72px; left: 0; right: 0; background: var(--blanc); padding: 16px 5%; border-bottom: 2px solid var(--border); box-shadow: 0 8px 24px rgba(0,0,0,0.08); z-index: 998; }
   .nav-links.open { display: flex; }
   .hamburger { display: flex; }
-  nav { position: sticky; }
+  body > nav  { position: sticky; }
   .nav-dropdown-menu { position: static; box-shadow: none; border: none; background: var(--gris-clair); margin-top: 4px; border-radius: 8px; }
   .nav-dropdown.open .nav-dropdown-menu { display: flex; flex-direction: column; }
   .contact-inner { grid-template-columns: 1fr; }
